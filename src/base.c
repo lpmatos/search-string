@@ -6,10 +6,6 @@
 ## VERSION: 1.1
 ##############################################################################*/
 
-// =============================================================================
-// LIBRARYS
-// =============================================================================
-
 #include "base.h"
 #include <stdio.h>
 #include <locale.h>
@@ -44,9 +40,9 @@ void helper(void){
 void cabecalho(void){
   printf("\n**************************************************");
   printf("\n*                                                *");
-  printf("\n*                                                *");
-  printf("\n* SEARCH STRING IN PARALLEL - LUCCA PESSOA       *");
-  printf("\n*                                                *");
+  printf("\n* DESCRIPTION: IMPLEMENTATION  - SEARCH STRING   *");
+  printf("\n* AUTOR: LUCCA PESSOA DA SILVA MATOS             *");
+  printf("\n* DATE: 16-04-2020                               *");
   printf("\n*                                                *");
   printf("\n**************************************************\n\n");
 }
