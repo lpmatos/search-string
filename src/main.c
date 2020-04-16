@@ -24,3 +24,30 @@ int main(int argc, char const *argv[]){
   log_info("Done!");
   return 0;
 }
+
+FILE *create_file(const char *file_name){
+  log_info("Creating the log File %s!", file_name);
+  FILE *file_pointer = NULL;
+  file_pointer = fopen(file_name, "w");
+  if(!check_file_pointer_exist(file_pointer)){
+    log_error("Error while we create the log File %s in the system... Return NULL.", file_name);
+    return NULL;
+  }else{
+    log_info("Success in creating the log File %s in the system!", file_name);
+    return file_pointer;
+  }
+}
+
+// =============================================================================
+
+FILE *check_file_exist(const char *file_name){
+  log_info("Checking if the %s alredy exist in the system", file_name);
+  if(!access(file_name, F_OK )){
+    log_info("The log File %s was Found in the system!", file_name);
+    return NULL;
+  }else{
+    log_info("The log File %s not Found in the system. We will this file for you.", file_name);
+    FILE *file_pointer = create_file(file_name);
+    return file_pointer;
+  }
+}
