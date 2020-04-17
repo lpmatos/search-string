@@ -20,13 +20,13 @@
  * IN THE SOFTWARE.
  */
 
+#include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
 #include <string.h>
-#include <time.h>
 
-#include "log.h"
+#include "../../../include/log.h"
 
 static struct {
   void *udata;

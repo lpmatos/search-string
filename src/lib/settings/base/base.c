@@ -1,17 +1,16 @@
 /* #############################################################################
-## DESCRIPTION: Base Functions Definition.
+## DESCRIPTION: In this file we build the functions presente in base.h.
 ## NAME: base.c
 ## AUTHOR: Lucca Pessoa da Silva Matos
 ## DATE: 16.04.2020
 ## VERSION: 1.1
 ##############################################################################*/
 
-#include "base.h"
 #include <stdio.h>
 #include <locale.h>
 #include <unistd.h>
-#include <stdbool.h>
 
+#include "../../../include/base.h"
 
 // =============================================================================
 // FUNCTIONS
@@ -37,7 +36,7 @@ void helper(void){
 
 // =============================================================================
 
-void cabecalho(void){
+void header_description(void){
   printf("\n**************************************************");
   printf("\n*                                                *");
   printf("\n* DESCRIPTION: IMPLEMENTATION  - SEARCH STRING   *");
@@ -45,10 +44,4 @@ void cabecalho(void){
   printf("\n* DATE: 16-04-2020                               *");
   printf("\n*                                                *");
   printf("\n**************************************************\n\n");
-}
-
-// =============================================================================
-
-bool check_file_pointer_exist(FILE *file_pointer){
-  return file_pointer ? true : false;
 }

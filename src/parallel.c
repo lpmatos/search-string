@@ -11,12 +11,6 @@ int main() {
 	printf("Entre com o numero de threads: ");
 	scanf("%d", &n_threads);
 
-	// printf("Entre com o caminho do arquivo: ");
-	// scanf("%s", filename);
-
-	// printf("Entre com a palavra a ser procurada: ");
-	// scanf("%s", w2f);
-
 	int window = strlen(w2f);
 
 	fp = fopen(filename, "r");
