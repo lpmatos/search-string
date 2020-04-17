@@ -1,1 +1,88 @@
-2020-04-16 22:00:41 INFO  .\main.c:51: File
+2020-04-16 22:12:19 INFO  .\main.c:55: Helper
+2020-04-16 22:12:52 INFO  .\main.c:48: We have the file
+2020-04-16 22:18:43 INFO  .\./lib/settings/file/file.c:51: Checking if Log File alredy exist.
+2020-04-16 22:18:43 INFO  .\./lib/settings/file/file.c:53: Log File was found in the system!
+2020-04-16 22:19:19 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 22:19:19 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 22:25:55 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 22:25:55 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 22:26:13 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 22:26:13 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 22:28:12 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 22:28:12 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 22:40:25 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 22:40:25 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 22:42:03 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 22:42:03 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 22:42:10 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 22:42:10 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 22:45:06 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 22:45:06 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 22:51:13 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 22:51:13 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 22:52:16 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 22:52:16 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:05:36 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:05:36 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:06:36 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:06:36 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:06:44 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:06:44 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:07:47 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:07:47 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:09:03 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:09:03 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:09:20 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:09:20 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:09:46 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:09:46 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:11:06 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:11:06 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:12:30 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:12:30 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:14:08 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:14:08 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:14:35 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:14:35 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:14:48 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:14:48 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:15:42 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:15:42 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:16:28 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:16:28 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:16:40 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:16:40 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:16:59 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:16:59 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:19:37 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:19:37 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:20:06 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:20:06 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:20:46 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:20:46 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:21:16 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:21:16 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:21:49 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:21:49 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:22:01 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:22:01 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:22:12 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:22:12 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:22:48 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:22:48 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:24:40 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:24:40 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:24:51 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:24:51 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:37:34 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:37:34 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:44:53 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:44:53 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:50:46 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:50:46 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-16 23:53:17 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-16 23:53:17 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-17 00:03:24 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-17 00:03:24 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-17 00:04:11 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-17 00:04:11 INFO  .\./lib/settings/file/file.c:53: File was found in the system!

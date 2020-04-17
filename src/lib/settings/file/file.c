@@ -33,14 +33,14 @@ bool check_file_pointer_exist(FILE *file_pointer){
 // =============================================================================
 
 FILE *create_file(const char *file_name){
-  log_info("Creating the Log File!");
+  log_info("Creating the File!");
   FILE *file_pointer = NULL;
   file_pointer = fopen(file_name, "w");
   if(!check_file_pointer_exist(file_pointer)){
-    log_info("Error creating Log File... Return NULL.");
+    log_info("Error creating File... Return NULL.");
     return NULL;
   }else{
-    log_info("Log File creation successful!");
+    log_info("File creation successful!");
     return file_pointer;
   }
 }
@@ -48,13 +48,22 @@ FILE *create_file(const char *file_name){
 // =============================================================================
 
 FILE *check_if_file_exist(const char *file_name){
-  log_info("Checking if Log File alredy exist.");
+  log_info("Checking if File alredy exist.");
   if(!access(file_name, F_OK )){
-    log_info("Log File was found in the system!");
+    log_info("File was found in the system!");
     return NULL;
   }else{
-    log_info("Log File not found in the system. We will create for you.");
+    log_info("File not found in the system. We will create for you.");
     FILE *file_pointer = create_file(file_name);
     return file_pointer;
   }
+}
+
+// =============================================================================
+
+int get_file_total_lines(FILE *file_pointer){
+  /* Pula até o fim do arquivo.*/
+  fseek(file_pointer, 0, SEEK_END);
+  /* Lê o indicador de posição (em bytes).*/
+  return ftell(file_pointer);
 }

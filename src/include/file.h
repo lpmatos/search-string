@@ -14,6 +14,8 @@
 FILE *create_file(const char *file_name);
 FILE *check_if_file_exist(const char *file_name);
 
+int get_file_total_lines(FILE *file_pointer);
+
 bool check_file_pointer_exist(FILE *file_pointer);
 
 #endif

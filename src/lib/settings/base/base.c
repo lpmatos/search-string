@@ -3,7 +3,7 @@
 ## NAME: base.c
 ## AUTHOR: Lucca Pessoa da Silva Matos
 ## DATE: 16.04.2020
-## VERSION: 1.1
+## VERSION: 1.0
 ##############################################################################*/
 
 #include <stdio.h>
@@ -30,7 +30,7 @@ void helper(void){
     "\n"
     "Options:\n"
     "  -f    file    Path file.\n"
-    "  -h            This help message.\n");
+    "  -h            This help message.\n\n");
   exit(EXIT_FAILURE);
 }
 
