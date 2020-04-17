@@ -90,16 +90,17 @@ int main(int argc, char const *argv[]){
   if(argc > 1){
     for (int arg = 1; arg < argc; ++arg){
       if(strcmp("-f", argv[arg]) == 0){
-        if(argv[2]){
-          FILE *file_to_search = check_if_file_exist(argv[2]);
-          file_to_search = fopen(argv[2], "r");
+        const char *param = argv[2];
+        if(param){
+          FILE *file_to_search = check_if_file_exist(param);
+          file_to_search = fopen(param, "r");
           int window = strlen(w2f);
           int end_file_to_search = get_file_total_lines(file_to_search);
           double start_time = omp_get_wtime();
           #pragma omp parallel num_threads(n_threads)
           {
             FILE *file_to_search_thread;
-            file_to_search_thread = fopen(argv[2], "r");
+            file_to_search_thread = fopen(param, "r");
             int id = omp_get_thread_num();
             int total_threads = omp_get_num_threads();
             int start, end, division, mod;

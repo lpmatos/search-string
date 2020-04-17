@@ -86,3 +86,5 @@
 2020-04-17 00:03:24 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
 2020-04-17 00:04:11 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
 2020-04-17 00:04:11 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
+2020-04-17 00:13:14 INFO  .\./lib/settings/file/file.c:51: Checking if File alredy exist.
+2020-04-17 00:13:14 INFO  .\./lib/settings/file/file.c:53: File was found in the system!
